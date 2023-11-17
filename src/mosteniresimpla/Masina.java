@@ -1,6 +1,6 @@
 package mosteniresimpla;
 
-public class Masina {
+abstract class Masina {
     private String brand;
     private double locuri;
     private double anul;
@@ -9,6 +9,7 @@ public class Masina {
         this.anul=anul;
         this.locuri=locuri;
     }
+    public abstract void categorie();
 
     public String getBrand() {
         return brand;

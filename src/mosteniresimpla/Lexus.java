@@ -7,6 +7,10 @@ public class Lexus extends Masina {
         super(brand, anul, locuri);
         this.culoarea = culoarea;
     }
+    @Override
+    public void categorie(){
+        System.out.println("sedan");
+    }
 
     public String getCuloarea() {
         return culoarea;
